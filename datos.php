@@ -166,5 +166,141 @@ function mostrar(){
 
 
 <img src="https://i.postimg.cc/cJyBTQwC/derechgos.png" style="position:absolute; top: 603px; left: 870px;">
+
+
+<style>
+	body{
+
+background-color:#08528d;
+
+
+
+}
+
+
+
+
+form{
+
+position: absolute;
+top:90px;
+left:110px;
+background-color: white;
+width:570px;
+height: 490px;
+border-radius: 5px;
+
+
+}
+
+.cambiar{
+
+color: #F1F1F1;
+opacity: 60%;
+text-decoration: none;
+
+}
+.cambiar:hover{
+
+
+color: #FFFFFF;
+opacity: 100%;
+text-decoration: underline;
+
+}
+
+.link{
+color:#08528d;
+
+
+text-decoration: none;
+
+
+}
+
+.link:hover{
+color:#00467E;
+
+text-decoration: underline;
+
+
+	
+}
+
+
+.fondo{
+
+
+background-color:#1D62DC;
+
+
+}
+
+.fondo:hover{
+
+
+background-color:#0565B0;
+
+	
+}
+
+
+.bordes{
+
+border-color: #F7F7F7;
+border-width:1px; 
+
+
+}
+
+.letra{
+
+
+font-family: sans-serif;
+opacity: 90%;
+font-size: 15px;
+
+}
+
+.lbl{
+  display: inline-block;
+  width: 30px;
+  height: 18px;
+  background: #AAB6B6;
+  border-radius: 100px;
+  cursor: pointer;
+  position: relative;
+  transition: .2s;
+}
+
+.lbl::after{
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #eee;
+  border-radius: 100px;
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  transition: .2s;
+}
+#switch:checked + .lbl::after{
+  left: 15px;
+}
+ 
+#switch:checked + .lbl{
+  background: #00C8B1;
+}
+ 
+#switch{
+  display: none;
+}
+
+
+
+	</style>
+
+
 </body>
 </html>
